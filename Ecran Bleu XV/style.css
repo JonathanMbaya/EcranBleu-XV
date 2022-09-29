@@ -1,0 +1,177 @@
+/* 
+Theme Name: LABO XV
+Version: 1.0.0
+Author: Jonathan MBAYA
+Description: EcranBleu XV [Mettre une description dans le fichier CSS]
+*/
+
+
+
+/* HEADER */
+
+@media only screen and (max-width: 600px) {
+
+
+    .img-bg-home{
+
+        position: absolute;
+        z-index:1000;
+        height: 60vh !important;
+    }
+
+    .img-bg-footer{
+
+        position: absolute;
+        z-index: 1000;
+        height: 100vh !important;
+        transform: rotate(3.142rad);
+        
+    }
+
+    #front-title{
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .screenslider{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        position: relative;
+        z-index: 1000 !important;
+    }
+    
+    .screen img {
+        width: 100%;
+    }
+    
+    .screen{
+        max-width: 280px !important;
+        position: absolute;
+        z-index:900;
+      }
+    
+    .slider{
+        max-width: 280px !important;
+        position: relative;
+    }
+
+    .text-presentation{
+        margin-top: 5px;
+    }
+
+}
+
+
+/* HEADER */
+
+html, body {
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+a, li, ul {
+
+    text-decoration: none;
+    list-style-type: none; 
+    
+}
+.img-bg-home{
+    position: absolute;
+    z-index: 1000;
+    height: 90vh;
+}
+
+.img-bg-footer{
+    position: absolute;
+    z-index: 1000;
+    height: 180vh;
+    transform: rotate(3.142rad);
+}
+
+#title-home , #subtitle-home {
+    color: white !important;
+}
+
+h1{
+    font-size: 40px !important;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 25px !important;
+    font-weight: 400;
+}
+
+h3, h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.screenslider{
+    width: 400px;
+    position: relative;
+    z-index: 2000 !important;
+}
+
+.screen img {
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.screen{
+    max-width: 600px !important;
+    position: absolute;
+    z-index: 900;
+  }
+
+.slider{
+    max-width: 600px !important;
+    position: absolute;
+}
+
+#ctaa{
+    text-align: center;
+    color: white;
+    margin-top: 400px !important;
+    font-weight: bold;
+}
+  
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+/* BLOCK 1 - HOME */
+
+
+.block-presentation {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px !important;
+}
+
+
+/* BLOCK 2 - NOS SERVICES */
+
+
+.vertical { 
+    border-left: 1px solid black !important; 
+    height: 200px; 
+    display: inline-block;
+} 
+
+.services{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-around !important;
+}
